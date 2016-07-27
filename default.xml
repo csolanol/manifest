@@ -11,7 +11,7 @@
            revision="mm6.0" />
     
   <remote  name="pure"
-           fetch="https://github.com/purenexus"
+           fetch="https://github.com/PureNexusProyect"
            revision="mm2" />
 
   <remote  name="csolanol"
