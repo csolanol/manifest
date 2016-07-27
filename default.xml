@@ -10,7 +10,12 @@
            fetch="https://github.com/SlimRoms"
            revision="mm6.0" />
   
-    <remote  name="csolanol"
+    
+  <remote  name="pure"
+           fetch="https://github.com/purenexus"
+           revision="mm2" />
+  
+  <remote  name="csolanol"
            fetch="https://github.com/csolanol"
            revision="mm6.0" />
 
