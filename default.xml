@@ -106,7 +106,6 @@
   <project path="external/busybox" name="android_external_busybox" remote="slim" />
   <project path="external/connectivity" name="android_external_connectivity" revision="mm6.0" remote="slim" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote ="slim" />
-  <project path="external/exfat" name="android_external_exfat" remote="slim" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" />
   <project path="external/fuse" name="android_external_fuse" remote="slim" />
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="slim" />
