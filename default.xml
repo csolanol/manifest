@@ -32,6 +32,8 @@
 
   <!-- Device and kernel repos -->
   <project path="device/xiaomi/libra" name="android_device_xiaomi_libra" groups="device,xiaomi" remote="reposte" revision="mm6.0" />
+  <project name="reposte/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="mm6.0"/>
+  <project name="reposte/android_kernel_xiaomi_msm8992" path="kernel/xiaomi/msm8992" remote="github" revision="mm6.0-test"/>
   
   
   <!-- Pure Repo's -->
@@ -457,7 +459,6 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
