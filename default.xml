@@ -10,9 +10,13 @@
            fetch="https://github.com/SlimRoms"
            revision="mm6.0" />
   
-    <remote  name="csolanol"
+  <remote  name="csolanol"
            fetch="https://github.com/csolanol"
            revision="mm6.0" />
+  
+  <remote  name="pure"
+           fetch="https://github.com/purenexus"
+           revision="mm2" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
@@ -81,7 +85,6 @@
   <project path="vendor/nexus" name="android_vendor_nexus" remote="pure" revision="mm2" />
  
   <!-- CM -->
-  <project path="external/google" name="android_external_google" remote="cm" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" remote="cm" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" remote="cm" revision="cm-13.0-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" remote="cm" revision="cm-13.0-caf-8974" />
